@@ -16,7 +16,7 @@ public class DemoApplication {
 		this.myService = myService;
 	}
 
-	@GetMapping("/")
+	@GetMapping("/rati-jindal")
 	public String home() {
 		return myService.message();
 	}
